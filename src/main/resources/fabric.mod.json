@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "packettool",
+	"version": "${version}",
+	"name": "Packet Tool",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.ladder.packettool.PacketToolClient"
+		]
+	},
+	"mixins": [
+		"packettool.mixins.json"
+	],
+	"depends": {
+		"minecraft": "1.21.4",
+		"fabricloader": ">=0.18.2",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

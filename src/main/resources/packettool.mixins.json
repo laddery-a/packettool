@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.ladder.packettool.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientCommonNetworkHandlerAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

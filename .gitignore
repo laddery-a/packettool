@@ -1,0 +1,17 @@
+# Gradle
+.gradle/
+build/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# Minecraft run files
+run/
+logs/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
